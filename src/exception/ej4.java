@@ -35,9 +35,9 @@ public class ej4{
         
         } catch(excepcionDiv e){
             System.out.println(e.getMessage());
+          // throw(e);
         } catch(Exception e){
-            System.out.println("Error " + e.getMessage());
-        }
+            System.out.println("Error " + e.getMessage());        }
       
     }
     
